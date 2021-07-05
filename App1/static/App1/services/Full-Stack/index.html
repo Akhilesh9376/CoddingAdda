@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+</head>
+   <!-- three_box  -->
+   <div id="service" class="three_box">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="Soft-box"> <i><img src="images/service1.png" alt="#" /></i>
+                  <h3> HTML5</h3>
+                  <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="Soft-box"> <i><img src="images/service2.png" alt="#" /></i>
+                  <h3>CSS</h3>
+                  <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="Soft-box"> <i><img src="images/service2.png" alt="#" /></i>
+                  <h3>Node Js</h3>
+                  <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="Soft-box"> <i><img src="images/service2.png" alt="#" /></i>
+                  <h3>Django</h3>
+                  <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="Soft-box"> <i><img src="images/service2.png" alt="#" /></i>
+                  <h3>JavaScript</h3>
+                  <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="Soft-box"> <i><img src="images/service3.png" alt="#" /></i>
+                  <h3>Python</h3>
+                  <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- testimonial -->
+   <!-- testimonial -->
+   <div class="testimonial">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>Course <span class="white">contents</span></h2>
+                  <p>use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+                     <br> middle of text. All the Lorem Ipsum generators on the </p>
+               </div>
+            </div>
+         </div>
+         <section id="demos">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="owl-carousel owl-theme">
+                     <div class="item"> <span></span>
+                        <h3>Week-1 </h3>
+                        <p style="font-size: 20px"> Introduction
+                           <br>Keywords
+                           <br>Functions
+                           <br>Lists
+                           <br> Error Handling </p>
+                     </div>
+                     <div class="item"> <span></span>
+                        <h3>Week-2 </h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                     </div>
+                     <div class="item"> <span></span>
+                        <h3>Week-3 </h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                     </div>
+                     <div class="item"> <span></span>
+                        <h3>Week-4 </h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                     </div>
+                     <div class="item"> <span></span>
+                        <h3>Week-5 </h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                     </div>
+                     <div class="item"> <span></span>
+                        <h3>Week6 </h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+   </div>
+   <!-- end testimonial -->
+   <!-- Javascript files-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/plugin.js"></script>
+   <!-- sidebar -->
+   <script>
+   $(document).ready(function() {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+         margin: 10,
+         nav: true,
+         loop: true,
+         responsive: {
+            0: {
+               items: 1
+            },
+            600: {
+               items: 2
+            },
+            1000: {
+               items: 3
+            }
+         }
+      })
+   })
+   </script>
+   <script>
+   $('.content').hide();
+   $('.slider').click(function() {
+      $(this).next('.content').slideToggle();
+      this.toggle = !this.toggle;
+      $(this).children("span").text(this.toggle ? "-" : "+");
+      return false;
+   });
+   </script>
+</body>
+
+</html>

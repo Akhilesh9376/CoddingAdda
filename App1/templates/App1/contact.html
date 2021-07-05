@@ -1,0 +1,55 @@
+{% extends 'App1/base.html' %}
+
+{% block content %}
+ 
+ {% include 'App1/abovenav.html' %}
+ {% include 'App1/navbar.html' %}
+
+<section class="contact" id="contact">
+    <div class="max-width">
+        <br><h1 class="title">
+Contact Us</h1></br>
+<div class="contact-content">
+            <div class="column center">
+                <div class="text">
+</div>
+<p>
+  </p>
+</div>
+</div>
+<div class="column right">
+              <br><div class="text">
+Message/Feedback</div></br>
+<form action="" method="POST">
+{% csrf_token %}
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" placeholder="Name" name='name' required>
+                        </div>
+<div class="field email">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+
+<div class="field email">
+                            <input type="tel" name="phone" placeholder="Phone" required>
+                        </div>
+
+
+</div>
+<div class="field">
+                        <input type="textarea" placeholder="Comment/Feedback" name='message' required>
+                    </div>
+<div class="field textarea></div>
+     <changeit cols=" 30" rows="10" placeholder="Comment..." required></changeit>
+                    </div>
+<div class="button">
+                        <button type="submit">Send message</button>
+                    </div>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+{% include 'App1/footer.html' %}
+{% endblock %}

@@ -1,0 +1,66 @@
+{% block content %}
+{% include 'App1/abovenav.html' %}
+{% include 'App1/navbar.html' %}
+
+
+<section class="teams" id="teams">
+    <div class="max-width">
+      <br>
+
+{% comment %} loading the static file from images {% endcomment %}
+
+{% load static %}
+        <h2 class="title">
+Meet The CodingAdda Team</h2>
+<div class="carousel owl-carousel">
+            <div class="card">
+                <div class="box">
+                    <img src="{% static 'App1/images/20201104_072636.jpg' %}" alt="">
+                    <div class="text">RITIK RAJ </div>
+                    <p>(FRONT END DEVELOPER & WEB DESIGNER)</p>
+
+</div>
+</div>
+<div class="card">
+                <div class="box">
+                    <img src="{% static 'App1/images/IMG-20210620-WA0004.jpg' %}" alt="">
+                    <div class="text">AKHILESH YADAV</div>
+                    <p>(FULL STACK WEB DEVELOPER)</p>
+</div>
+</div>
+<div class="card">
+                <div class="box">
+                    <img src="{% static 'App1/images/IMG-20210620-WA0006.jpg' %}" alt="">
+                    <div class="text">MANISH KUMAR</div>
+                    <p>(BACK-END & MACHINE LEARNING SPECIALIST)</p>
+</div>
+</div>
+<div class="card">
+                <div class="box">
+                    <img src="{% static 'App1/images/devendra.jpg' %}" alt="">
+                    <div class="text">DEVENDRA KUMAR</div>
+                    <p>(FRONT END DEVELOPER)</p>
+</div>
+</div>
+<div class="card">
+                <div class="box">
+                    <img src="{% static 'App1/images/IMG-20210620-WA0005.jpg' %}" alt="">
+                    <div class="text">SHADAN SHIDDIQUI</div>
+                    <p>(HEAD OF MARKET RESEARCH)</p>
+</div>
+</div>
+
+<div class="carousel owl-carousel">
+            <div class="card">
+                <div class="box">
+                    <img src="{% static 'App1/images/IMG-20210620-WA0009.jpg' %}" alt="">
+                    <div class="text">AKHILESH NISHAD</div>
+                    <p>(JAVA SCRIPT (JSP) DEVELOPER)</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+{% include 'App1/footer.html' %}
+{% endblock %}

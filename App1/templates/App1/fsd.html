@@ -1,0 +1,334 @@
+{% extends 'App1/servicesbase.html' %}
+{% block content %}
+{% load static %}
+
+<body class="main-layout">
+   <!-- loader  -->
+
+
+
+   <!-- end loader -->
+   <!-- header -->
+
+
+   <header>
+      <!-- header inner -->
+      <div class="header_bg">
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="{% static 'App1/services/images/logo.png' %}" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <ul>
+                        <li style="font-size: 30px ; float: right;  border: 2px"> <a href="{% url 'Home' %}"> Home</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main" >
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <div class="text-bg"> <span>Full Stack <br> Developer</span>
+                     <h1>Creating Websites</h1>
+                     <p>Here in this section of<i style="font-size: 20px"> Codding Adda </i>We are going to learn about Full Stack Development .Articles will be posted about Python,HTML,Node Js,JavaScript,Django etc .We will provide you best articles :) </p> <a href="#">Subscribe Now</a> </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="text-img">
+                     <figure><img src="{% static 'App1/services/images/img.png' %}" /></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      </div>
+   </header>
+   <!-- end banner -->
+   <!-- three_box  -->
+   <div id="service" class="three_box">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="Soft-box"> <i><img src="{% static 'App1/services/images/html.png' %}" alt="#" /></i>
+                  <h3> HTML5</h3>
+                  <p>HTML is the standard markup language for Web pages.With HTML you can create your own Website.HTML is easy to learn - You will enjoy it!</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="Soft-box"> <i><img src="{% static 'App1/services/images/css.png' %}" alt="#" /></i>
+                  <h3>CSS</h3>
+                  <p>CSS is the language we use to style an HTML document.CSS describes how HTML elements should be displayed.We will teach you CSS from basic to advanced.</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="Soft-box"> <i><img src="{% static 'App1/services/images/nodejs.png' %}" alt="#" /></i>
+                  <h3>Node Js</h3>
+                  <p>As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="Soft-box"> <i><img src="{% static 'App1/services/images/django.png' %}" alt="#" /></i>
+                  <h3>Django</h3>
+                  <p>Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="Soft-box"> <i><img src="{% static 'App1/services/images/javas.png' %}" alt="#" /></i>
+                  <h3>JavaScript</h3>
+                  <p>JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web.JavaScript is easy to learn.This tutorial will teach you JavaScript from basic to advanced.</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="Soft-box"> <i><img src="{% static 'App1/services/images/python.png' %}" alt="#" /></i>
+                  <h3>Python</h3>
+                  <p>Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages.Python is developed under an OSI-approved open source license, making it freely usable and distributable.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end three_box -->
+
+   <!-- testimonial -->
+   <!-- testimonial -->
+   <div class="testimonial">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>Articles<span class="white">Contents</span></h2>
+                  <p>Contents of Articles that will be posted in future
+                     <br> It is Scheduled by Our Expert Akhilesh Yadav. </p>
+               </div>
+            </div>
+         </div>
+         <section id="demos">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="owl-carousel owl-theme">
+                     <div class="item"> <span></span>
+                        <h3>Week-1 </h3>
+                        <p style="font-size: 20px"> Introduction
+                           <br>Environment Set-Up
+                           <br>JavaScript Basics
+                           <br>ES6,Babel
+                           <br>JSX
+                           <br>React Intro</p>
+                     </div>
+                     <div class="item"> <span></span>
+                        <h3>Week-2 </h3>
+                        <p style="font-size: 20px">Introduction to Python
+                           <br>Lists
+                           <br>Fuctions
+                           <br>Error handling
+                           <br>Ds in python
+                           <br>Advance python
+                        </p>
+                     </div>
+                     <div class="item"> <span></span>
+                        <h3>Week-3 </h3>
+                        <p style="font-size: 20px">Django
+                           <br>Sample Program
+                           <br>Get post
+                           <br>Html merging
+                           <br>Dynamic view
+                           <br>Advance Concepts
+                        </p>
+                     </div>
+                     <div class="item"> <span></span>
+                        <h3>Week-4 </h3>
+                        <p style="font-size: 20px">MySql
+                         <br> Data accessing
+                           <br>Templates
+                           <br>Migration of data
+                           <br>Run server
+                           <br>Spring data
+                        </p>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+   </div>
+   <!-- end testimonial -->
+<div id="why" class="weare">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>Your <span class="white">Course Instructor</span></h2> </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <div class="main_weare">
+                  <div class="row">
+                     <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                        <div id="box_ho" class="weare-img_box">
+                           <figure><img src="{% static 'App1/services/images/ankit.jpg' %}" alt="#" /></figure>
+                        </div>
+                     </div>
+                     <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                        <div class="weare-box">
+                           <h3>Akhilesh Yadav</h3>
+                           <p>Expert Of CodingAdda & Full Stack Developer</p> <a class="read_more bg" href="#">Read Articles</a> </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Asked -->
+   <div class="asked_main">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>Frequently Asked <span class="white"> Questions</span></h2> </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="ask_img">
+                  <figure><img src="{% static 'App1/services/images/ask.jpg' %}" alt="#" /></figure>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="ask_box">
+                  <div class="simpaly">
+                     <div class="slider"><span>+</span><a href="#">
+                           Is it worth of reading this article</a> </div>
+                     <div class="content">
+                        <p> Yes, you can read review and also check out our articles available .It worth spending your valuable time:)  </p>
+                     </div>
+                  </div>
+                  <div class="simpaly">
+                     <div class="slider"><span>+</span><a href="#">
+                           After Reading this articles am i able to create a working website</a> </div>
+                     <div class="content">
+                        <p> Yes, of course you will .This articles will provide knowledge from basic level to advance level </p>
+                     </div>
+                  </div>
+                  <div class="simpaly">
+                     <div class="slider"><span>+</span><a href="#">
+                           Do i need to pay to read this articles</a> </div>
+                     <div class="content">
+                        <p>No, This is Free Service From CodingAdda </p>
+                     </div>
+                  </div>
+                  <div class="simpaly">
+                     <div class="slider"><span>+</span><a href="#">
+                          Do you plan to release video content?</a> </div>
+                     <div class="content">
+                        <p>Yes a specialized team of CodingAdda is working to give you what you expect from us</p>
+                     </div>
+                  </div>
+                  <div class="simpaly">
+                     <div class="slider"><span>+</span><a href="#">
+                           Are course Videos/Articles downloadable</a> </div>
+                     <div class="content">
+                        <p> No:( You can not download  or share our content.  </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   <!-- end Asked -->
+   <!-- contact testimonial-->
+   <div id="contact" class="contact">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="titlepage">
+                  <h2>Contact <span class="white">Us</span></h2> </div>
+
+            </div>
+            <div class="col-md-6">
+               <form class="main_form" method="POST">
+               {% csrf_token %}
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <input class="contactus" placeholder="Full Name" type="text" name="name"> </div>
+                     <div class="col-sm-12">
+                        <input class="contactus" placeholder="Email" type="text" name="email"> </div>
+                     <div class="col-sm-12">
+                        <input class="contactus" placeholder="Phone" type="text" name="phone"> </div>
+                     <div class="col-sm-12">
+                        <textarea class="textarea" placeholder="Message" type="text" name="message"></textarea>
+                     </div>
+                     <div class="col-sm-12">
+                        <button class="send">Send</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end contact -->
+   <!-- Javascript files-->
+   <script src="js/jquery.mins.js"></script>
+   <script src="js/popper.mins.js"></script>
+   <script src="js/bootstrap.bundle.mins.js"></script>
+   <script src="js/jquery-3.0.0.mins.js"></script>
+   <script src="js/plugins.js"></script>
+   <!-- sidebar -->
+   <script src="js/jquery.mCustomScrollbar.concat.mins.js"></script>
+   <script src="js/customs.js"></script>
+   <script src="js/owl.carousel.mins.js"></script>
+   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   <script>
+   $(document).ready(function() {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+         margin: 10,
+         nav: true,
+         loop: true,
+         responsive: {
+            0: {
+               items: 1
+            },
+            600: {
+               items: 2
+            },
+            1000: {
+               items: 3
+            }
+         }
+      })
+   })
+   </script>
+   <script>
+   $('.content').hide();
+   $('.slider').click(function() {
+      $(this).next('.content').slideToggle();
+      this.toggle = !this.toggle;
+      $(this).children("span").text(this.toggle ? "-" : "+");
+      return false;
+   });
+   </script>
+</body>
+
+{% endblock %}

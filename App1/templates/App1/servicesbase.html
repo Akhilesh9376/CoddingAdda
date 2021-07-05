@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="{% static 'App1/services/css/bootstrap.mins.css' %}">
+   <!-- style css -->
+   <link rel="stylesheet" href="{% static 'App1/services/css/styles.css' %}">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="{% static 'App1/services/css/responsives.css' %}">
+   <link rel="stylesheet" href="{% static 'App1/services/css/owl.carousel.mins.css' %}">
+   <!-- fevicon -->
+   <img src="{% static 'App1/services/images/fevicon.png' %}" alt="">
+
+
+
+
+   <link rel="icon" href="{% static 'App1/services/images/fevicon.png' %}" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   {% comment %} <link rel="stylesheet" href="css/jquery.mCustomScrollbar.mins.css"> {% endcomment %}
+
+   <link rel="stylesheet" href="{% static 'App1/services/css/jquery.mCustomScrollbar.mins.css' %}">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<body>
+    {% block content %}
+    
+    {% endblock %}
+</body>
+</html>
