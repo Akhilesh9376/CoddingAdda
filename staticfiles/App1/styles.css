@@ -1,0 +1,267 @@
+
+p {
+     margin: 0px;
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 24px;
+}
+
+/*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
+
+.text-bg a:hover {
+     background-color: #41c365;
+     color: #fff;
+}
+
+.text-img figure {
+     margin: 10px;
+}
+
+.text-img figure img {
+     width: 100%;
+}
+
+.titlepage {
+     text-align: center;
+     padding-bottom: 80px;
+}
+
+.titlepage h2 {
+     font-size: 45px;
+     color: #fff;
+     line-height: 40px;
+     font-weight: bold;
+     padding:inherit;
+}
+
+
+/** three_box section **/
+
+.three_box {
+     font-family: Poppins;
+}
+}
+.three_box .Soft-box i {
+     background: rgb(255, 240, 240);
+     width: 120px;
+     height: 120px;
+     border-radius: 77px;
+     border: #41c365 solid 4px;
+     align-items: center;
+     display:block;
+     justify-content: center;
+     margin: 0 auto;
+     flex-wrap: wrap;
+     transition: ease-in all 0.5s;
+}
+
+.three_box .Soft-box i:hover {
+     background: rgb(241, 236, 236);
+     transition: ease-in all 0.5s;
+}
+
+.three_box .Soft-box h3 {
+     padding: 20px 0px 20px 0px;
+     font-size: 30px;
+     line-height: 30px;
+     color: #f5f4f4;
+     display: block;
+     font-weight: 500;
+}
+
+.three_box .Soft-box {
+     text-align: center;
+     background-color: transparent;
+     padding: 20px 15px;
+}
+
+.three_box .Soft-box p {
+     font-size: 17px;
+     line-height: 30px;
+     color: #eee2e0;
+}
+
+
+/** end three_box section **/
+
+
+/** weare section **/
+
+.weare {
+     margin-top: 70px;
+     background: #d5ede0;
+     font-family: Poppins;
+     padding: 80px 0;
+}
+
+.weare .titlepage {
+     text-align: center;
+}
+
+.weare .titlepage h2 {
+     color: #000;
+}
+
+.weare .weare-box h3 {
+     padding: 20px 0px 20px 0px;
+     font-size: 29px;
+     line-height: 30px;
+     color: #090808;
+     display: block;
+     font-weight: 500;
+     text-transform: uppercase;
+}
+
+.weare .weare-box {
+     text-align: center;
+     background-color: transparent;
+     border-radius: 20px;
+     transition: ease-in all 0.5s;
+     text-align: left;
+}
+
+.weare .weare-box p {
+     font-size: 17px;
+     line-height: 34px;
+     color: #090808;
+     padding: 5px 0;
+}
+
+.weare .weare-img_box figure {
+     margin: 0;
+}
+
+.weare .weare-img_box figure img {
+     width: 100%;
+}
+
+.bg {
+     font-size: 17px;
+     background-color: transparent;
+     color: #3fbc61;
+     padding: 9px 0px;
+     width: 100%;
+     max-width: 190px;
+     float: left;
+     text-align: center;
+     margin-top: 20px;
+     border: #3fbc61 solid 2px;
+     text-transform: uppercase;
+     font-weight: 500;
+}
+
+.bg:hover {
+     background: #3fbc61;
+     color: #fff;
+}
+
+.main_weare {
+     padding-bottom: 30px;
+}
+
+
+/** end why section **/
+
+
+/** testimonial section **/
+
+.testimonial {
+     padding-top: 90px;
+}
+
+.testimonial .titlepage h2 {
+     color: #000;
+     margin-bottom: 20px;
+}
+
+.testimonial .titlepage p {
+     color: #000;
+     font-size: 17px;
+     line-height: 28px;
+}
+
+.owl-dot.active {
+     background: #1f1716 !important;
+}
+
+.item {
+     text-align: center;
+     background: #3fbc61;
+     border-radius: 20px;
+     padding: 20px;
+}
+
+.item span {
+     background: #ddd;
+     width: 50px;
+     height: 50px;
+     color: #3fbc61;
+     ff;
+     display: inline-block;
+     border-radius: 30px;
+}
+
+.item h3 {
+     font-size: 25px;
+     line-height: 29px;
+     padding: 10px 10px 10px 10px;
+     color: #fff;
+     text-transform: uppercase;
+}
+
+.item p {
+     padding: 0px 10px 10px 10px;
+     color: #fff;
+}
+
+.owl-nav {
+     display: none;
+}
+
+.owl-dots {
+     text-align: center;
+     margin-top: 30px;
+}
+
+.owl-dot {
+     background: #41c365 !important;
+     width: 25px;
+     height: 25px;
+     border-radius: 25px;
+     margin: 0px 5px;
+}
+
+
+/** end testimonial section **/
+.white {
+     color: #41c365;
+}
+/** end contact section **/
+
+
+/** footer **/
+
+.footer {
+     padding: 20px 0px;
+     background: #fff;
+}
+
+.footer p {
+     color: #1e1e1e;
+     font-size: 18px;
+     line-height: 22px;
+     text-align: center;
+}
+
+.footer a {
+     color: #1e1e1e;
+}
+
+.footer a:hover {
+     color: #41c365;
+}
+
+
+/** end footer **/
